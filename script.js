@@ -162,7 +162,7 @@ function showFinalMessage() {
 }
 
 function startTimer() {
-    const startDate = new Date('2025-09-10T09:35:00');
+    const startDate = new Date('2026-02-03T00:00:00');
     setInterval(() => {
         const diff = new Date() - startDate;
         const d = Math.floor(diff / 86400000);
